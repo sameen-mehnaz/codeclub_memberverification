@@ -1,0 +1,6 @@
+backend\node_modules
+frontend1\my-app\node_modules
+frontend1\my-app\.gitignore
+.env
+dist/"node_modules/" 
+"node_modules/" 

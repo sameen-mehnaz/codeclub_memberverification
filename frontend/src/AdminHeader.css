@@ -1,0 +1,40 @@
+
+.admin-header {
+  background-color: #0f2027;
+  color: #00ff41;
+  padding: 15px 20px;
+  font-family: 'Matrix', monospace;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-color: #00ff41;
+  color: #0f2027;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: #00ff41;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ffffff;
+}
+
+.admin-info {
+  color: #00ff41;
+}
